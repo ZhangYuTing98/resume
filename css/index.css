@@ -149,8 +149,8 @@ body {
 }
 
 #enter .button {
-    -webkit-animation: zoomIn 1s 1s both, enterScale 1.25s 1.5s infinite both;
-    animation: zoomIn 1s 1s both, enterScale 1.25s 1.5s infinite both;
+    -webkit-animation: zoomIn 1s 1s both, enterScale 1.25s 0s infinite both;
+    animation: zoomIn 1s 1s both, enterScale 1.25s 0s infinite both;
 }
 
 .enter .button div {

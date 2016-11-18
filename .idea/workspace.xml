@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="177a3a32-7e30-4f05-9807-3caaf7f818c1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="resume.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,7 +27,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.2285714">
+            <state vertical-scroll-proportion="11.142858">
               <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
               <folding />
             </state>
@@ -48,8 +49,8 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4592">
-              <caret line="559" column="12" selection-start-line="559" selection-start-column="12" selection-end-line="559" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.464">
+              <caret line="152" column="52" selection-start-line="152" selection-start-column="52" selection-end-line="152" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -263,7 +264,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2285714">
+        <state vertical-scroll-proportion="11.142858">
           <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
           <folding />
         </state>
@@ -281,8 +282,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4592">
-          <caret line="559" column="12" selection-start-line="559" selection-start-column="12" selection-end-line="559" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.464">
+          <caret line="152" column="52" selection-start-line="152" selection-start-column="52" selection-end-line="152" selection-end-column="52" />
           <folding />
         </state>
       </provider>
