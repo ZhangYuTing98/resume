@@ -57,7 +57,6 @@ window.setTimeout(function(){
         music.className = "music musicMove";
         music.style.opacity = 1;
     })
-
 },1000);
 music.addEventListener("click",function(){
     if(M.paused){//停止
@@ -67,7 +66,7 @@ music.addEventListener("click",function(){
         M.pause();
         music.className = "music";
     }
-})
+});
 /*--ENTER--*/
 var enterRender = (function () {
     var $enter = $('#enter'),
