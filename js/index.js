@@ -217,7 +217,6 @@ if (page === 3) {
 if (page == 4) {
     swiperRender.init(0);
 }
-
 document.addEventListener("touchmove", function(e) {
     e.preventDefault();
 });
