@@ -219,4 +219,4 @@ if (page == 4) {
 }
 document.addEventListener("touchmove", function(e) {
     e.preventDefault();
-});
+},false);
