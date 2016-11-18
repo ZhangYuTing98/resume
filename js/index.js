@@ -147,8 +147,8 @@ var cubeRender = (function () {
 var swiperRender = (function () {
     document.addEventListener("touchmove", function(e) {
         e.preventDefault();
-    }, false);
-    
+    });
+
     var $swiper = $('#swiper'),
         $makisu = $('#makisu'),
         $return = $swiper.children('.return');
