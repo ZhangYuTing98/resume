@@ -49,6 +49,25 @@ var loadingRender = (function () {
     }
 })();
 
+var M = document.querySelector("#M");
+var music = document.querySelector(".music");
+window.setTimeout(function(){
+    M.play();//音频文件播放 -边缓冲边播放
+    M.addEventListener("canplay",function(){
+        music.className = "music musicMove";
+        music.style.opacity = 1;
+    })
+
+},1000);
+music.addEventListener("click",function(){
+    if(M.paused){//停止
+        M.play();
+        music.className = "music musicMove";
+    }else{//播放
+        M.pause();
+        music.className = "music";
+    }
+})
 /*--ENTER--*/
 var enterRender = (function () {
     var $enter = $('#enter'),
