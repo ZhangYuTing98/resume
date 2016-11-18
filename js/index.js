@@ -145,10 +145,6 @@ var cubeRender = (function () {
 
 /*--SWIPER--*/
 var swiperRender = (function () {
-    document.addEventListener("touchmove", function(e) {
-        e.preventDefault();
-    });
-
     var $swiper = $('#swiper'),
         $makisu = $('#makisu'),
         $return = $swiper.children('.return');
@@ -222,4 +218,6 @@ if (page == 4) {
     swiperRender.init(0);
 }
 
-
+document.addEventListener("touchmove", function(e) {
+    e.preventDefault();
+});
