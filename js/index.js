@@ -92,7 +92,6 @@ var enterRender = (function () {
             //->给TOUCH绑定单击事件
             $buttonTouch.singleTap(closeEnter);
             cubeRender.init();
-            M.play();
         }
     }
 })();
