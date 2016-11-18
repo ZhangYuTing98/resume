@@ -706,7 +706,7 @@ body {
 
 .page6 .concat .textCon1 {
     float: right;
-    margin-top: .5rem;
+    margin-top: .3rem;
     padding: .2rem;
     width: 4.8rem;
     text-align: center;
@@ -724,7 +724,7 @@ body {
 
 .page6 img {
     position: absolute;
-    top: 6rem;
+    top: 5.6rem;
     left: 50%;
     margin-left: -2.5rem;
     width: 5rem;
