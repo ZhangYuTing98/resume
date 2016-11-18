@@ -268,17 +268,17 @@ body {
 }
 
 .page1 p:nth-child(2) {
-    top: 2.2rem;
+    top: 2.1rem;
     width: 5.5rem;
 }
 
 .page1 p:nth-child(3) {
-    top: 4rem;
+    top: 3.6rem;
     width: 5.5rem;
 }
 
 .page1 p:nth-child(4) {
-    top: 6rem;
+    top: 5.1rem;
     width: 5.5rem;
 }
 
@@ -454,7 +454,7 @@ body {
 }
 
 .page3 .concat .textCon {
-    margin-top: 1.25rem;
+    margin-top: 0.9rem;
     margin-left: -15px;
     padding: .2rem;
     width: 100%;
