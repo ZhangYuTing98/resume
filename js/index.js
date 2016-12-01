@@ -12,6 +12,27 @@
     pro.queryURLParameter = queryURLParameter;
 }(String.prototype);
 
+/*--MUSIC--*/
+
+var M = document.querySelector("#M");
+var music = document.querySelector(".music");
+window.setTimeout(function(){
+    M.play();//音频文件播放 -边缓冲边播放
+    M.addEventListener("canplay",function(){
+        music.className = "music musicMove";
+        music.style.opacity = 1;
+    })
+},1000);
+music.addEventListener("click",function(){
+    if(M.paused){//停止
+        M.play();
+        music.className = "music musicMove";
+    }else{//播放
+        M.pause();
+        music.className = "music";
+    }
+});
+
 /*--LOADING--*/
 var loadingRender = (function () {
     var ary = ["basketBall.jpg", "basketballCourt.jpg", "contact.jpg", "course.png", "course1.png", "course2.png", "course3.png", "course4.png", "course5.png", "course6.png","coverBg.jpg", "cube1.png", "cube2.png", "cube3.png", "cube4.png", "cube5.png", "cube6.png", "cubeBg.jpg", "cubeTip.png", "Email.png", "enter.png", "firstBg.jpg", "icon.png", "KB24.jpg", "me.jpg", "myself.jpg", "name.png", "phone.png", "qq.png", "return.png", "study.jpg", "work.jpg"];
@@ -49,24 +70,6 @@ var loadingRender = (function () {
     }
 })();
 
-var M = document.querySelector("#M");
-var music = document.querySelector(".music");
-window.setTimeout(function(){
-    M.play();//音频文件播放 -边缓冲边播放
-    M.addEventListener("canplay",function(){
-        music.className = "music musicMove";
-        music.style.opacity = 1;
-    })
-},1000);
-music.addEventListener("click",function(){
-    if(M.paused){//停止
-        M.play();
-        music.className = "music musicMove";
-    }else{//播放
-        M.pause();
-        music.className = "music";
-    }
-});
 /*--ENTER--*/
 var enterRender = (function () {
     var $enter = $('#enter'),
